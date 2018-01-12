@@ -1,0 +1,35 @@
+(Programs vs Modules)
+* Programs
+ - Executed from start to en
+ - (Usually a single purpose/function
+ - Can use code from modules
+
+* Modules
+ - Only executed when invoked from a program
+ - (Usually) includes basic functionsality for multiple purposes
+ - Can use other modules
+
+The "Main" Module
+ - Goal: A Python file that is both a module and a program
+ - Idea: Run main code if invoked as a program, use rest of code if not.
+
+Importing Modules
+ - Use the import statement
+ - Members of that modules (functions, variables, classes, etc...) are referred to with:
+	modulename.membername
+ - Example:
+	import math
+	math.sqrt(4)
+
+ - Can use different aliases:
+	import math as m
+	m.sqrt(4)
+	
+	from math import sqrt as sr
+	print(sr(4))
+
+	import math
+	sr = math.sqrt
+	print(sr(4))
+
+

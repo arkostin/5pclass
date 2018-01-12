@@ -1,0 +1,36 @@
+(While Loops)
+
+* Sentinel Values
+* Infinite Loops
+
+a = int(input())
+b = int(input())
+c = int(input())
+print(a + b + c)
+
+ --OR--
+
+a = 0
+for n in range(3):
+	a += int(input())
+
+print(a)
+
+Sum of two numbers: abort with 0
+
+x = 1
+while x < 100:
+	x = x * 2
+print(x)
+
+Above function prints 128
+
+Infinite loops
+* Used in:
+ - Refrigerators
+ - Background processes
+ - Anything that has no downtime
+
+break statement:
+BREAKS the current loop
+

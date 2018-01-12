@@ -1,0 +1,46 @@
+(Strings)
+
+ASCII - Not good for english
+
+String in Python:
+* String of characters
+* "hello", "John Smith", "http://example.com"
+* A string consisting of two lines:
+ - "It goes on /n and on"
+
+String Operations:
+* Appending/concatenating two strings with +
+	a = "tom"
+	b = "my"
+	print(a + b)
+	> 'tommy'
+* Length of String with len(s)
+	len("tom")
+	> 3
+	len("")
+	> 0
+
+String slicing:
+* Syntax: s[f:t]
+ - s must be expression of type "str"
+ - f and t are expressions of type "int"
+* With step: s[f:t:p]
+ - s is an expression of type 'str'
+ - f, t and p are expressions of type 'int'
+* Semantics:
+ - Return the slice from position f to t but only choose every p'th character.
+	"hello"[0:5:2]
+	> "hlo"
+	"hello"[1::2]
+	> "el"
+	"hello"[-1:0:-1]
+	"olle"
+* Syntax: s.m(p, ...)
+ - s is an expression of type "str"
+ - m is the nae of a string method (such as "count")
+ - There are varying numbers of parameters p depending on the concrete method, separated by commas.
+* Semantics:
+ - Every string method has its own semantics!
+	"hello".count("1")
+	> 0
+

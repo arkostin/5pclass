@@ -1,0 +1,59 @@
+(Dictionaries)
+* Syntax: {key1:value1, key2:value2...}
+* Curcly Braces
+* Zero or more key0value pairs
+* {} = EMpty dictionaries
+* Keys must be hashable values
+* Values can be anything
+* Creates container for key-value pairs
+* Pairs are not ordered
+* Pairs are not identified by numeric index
+* Instead: Value is identified by key
+* dict[key] returns corresponding value or error
+* dict[key] does not require loop ier all keys
+ - Instead, lookup optimized for fast access
+
+(Sets)
+* Syntax: {value1, value2...}
+* Like ditionaries, undordered colletion of values
+* No keys or numeric index
+ - set[idx] indexing not possible
+* Values must be hashable
+* Allows very fast embership test with in
+* Created with type converter set
+
+(Classes)
+* Syntax: 
+
+	class A
+		x = ...
+		def method(self)
+		...
+
+* Class name (A) follows same rules as variable names but typically uppercase
+* Indented class body includes zero or more
+ - Instance variable (x)
+ - Method definitions but with self
+* Following statements can create new objects with A()
+* Each instance of A created this way has
+ - Instance variables that can be accessed
+
+	print(a.x) #getting the value of "x"
+	a.x = 3 #setting a new value of "x"
+
+ - Methods that can be called
+
+	a.method() #"a" becomes "self" in method
+
+* Example: Counter
+
+	class Counter:
+		count = 0
+		def increment(self):
+
+(Programming)
+* Two different pholosophies with different trade-offs
+* Functional Programing
+ - Hierarchical Pipeline which processes 'dump' date
+* Object-oreiented Programming
+ - Web of 'smart' objects, communicating with each other

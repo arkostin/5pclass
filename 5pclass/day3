@@ -1,0 +1,88 @@
+(Strings)
+
+String of Characters
+"hello", "John Smith"
+"http://example.com/"
+"Once Upon a time, ..."
+
+Type ("hello")
+>>> type("hello)
+<class 'str'>
+
+Single or Double quotes (use backslash \ to escape)
+>>> 'doesn\'t'
+"doesn't"
+
+A string consisting of two lines:
+>>> print("It goes on \n and on")
+It goes on
+ and on
+
+A string spreading multiple lines:
+>>> print("""This 
+... is just the beggining""")
+This
+is just the beggining
+
+
+(Values)
+
+Booleans - True/False (1 byte)
+Lists - Sequence of values
+Tuples - Pack a few values
+Dictionaries - Mapping from a word to a different value
+Objects - Idk lmao
+Complex Numbers - Complex
+numPy Matrices, Data Series, etc...
+
+(Variables)
+
+Each variable has a name and a value
+Names must be a single word (One line, no spaces)
+ - Invalid: "the result"
+Names start with letter or underscore
+ - Invalid: "2ndValue"
+Keywords are reserved
+ - Invalid: "if", "try"
+Names are case-sensitive
+>>> A = 1
+>>> a = 2
+>>> a + A
+3
+
+Variables as memory cells
+Variables can store any kind of value, (Not necessary to declare)
+
+(Operators/Operands)
+
+Combined, converts values
+* Unary operators (-x)
+* Binary operatoes (12 - 5)
+
+Important for arithmetic calculations
+* Addition/Subtractions: 2 + 3, 3 - 4
+* Multiplication: 4 * 4, 5 ** 2
+* Division: 2 / 3
+* Integer division/remainder: 2 // 3, 2 % 3
+
+String concatenation
+>>> "pota" + "to"
+"potato"
+
+Stuff about Operator Precedence
+
+(Programs, Statements, Expressions)
+Programs - Series of Statements
+Statement - Command / Instruction
+ - Executing/Evaluating statment results in effect
+ - Updating variables, Output, Loops
+ - x = x + 1, print(x)
+Expression - Computation
+ - Evaluating expression results in value (Maybe also effect)
+ - Variable references, Arithmetic operations, Function calls
+ - 12, 23, "hello", x, x + y, input(), len("hello")
+Comments
+ - Neither statement nor expression
+ - Can be used to document your code
+ - A comment can be plain text following a # symbol
+ - Useful for other people reading your code

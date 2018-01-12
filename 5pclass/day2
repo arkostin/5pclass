@@ -1,0 +1,33 @@
+Python- 
+* We use Python 3 
+* Includes Interactive Prompt and file parsing
+
+Did a bunch of interactive coding w/ prompt and files
+Demonstration of PyCharm/variables in Python
+
+a = 3
+b = 4
+a + b = 7
+
+BUT
+
+a = '3'
+b = '4'
+a + b = 34
+
+Second one happens because a and b are strings, and the '+' operator concatenates them.
+Could achieve same result as first if 'a + b' was replaced with 'int(a) + int(b)'.
+
+(Why we use these tools)
+Most professors focus only on the mathematical/logical aspect of programming, but sometimes it's nice to be able to visualize every step of the process through a program like Pycharm.
+
+(Expressions)
+* Values
+ - Numbers (Integers "int", Floats "float")
+ - Strings
+ - Boolean Values, Lists, Objects,..
+* Variables
+* Operations
+ - Unary and Binary Operations
+* Input
+

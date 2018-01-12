@@ -1,0 +1,14 @@
+(Default Arguments)
+
+	def potato_soup(servings=6):
+		//BODY
+
+	potato_soup()
+	//Assumes 6 as input
+
+
+(Tuples)
+* Combine several values into a single one
+* Same semantics as lists, but immutable
+* That means it cannot be shortened, lengthened, or otherwise modified in any way at all.
+

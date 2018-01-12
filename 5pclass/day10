@@ -1,0 +1,56 @@
+(Traversing Strings)
+
+Syntax:
+	for c in str:
+		loopbody
+ - c holds one single value of type 'char'
+
+	s = "foo"
+	for c in s:
+		print(c)
+	print("f")
+	print("o")
+	print("o")
+
+* Alternatively, use regular for loop with range by:
+ - Indexing s[i] to get character at index i
+ - len(s) to get length of string
+
+	s = "foo"
+	for idx in range(len(s))
+		print(s[idx])
+
+	print(s[0])
+	print(s[1])
+	print(s[2])
+
+
+(Lists in Python)
+
+* [5, 2, 6], ["ayy", "lmao"]
+* Can be operated on:
+ - Appending/concatenating two lists with +
+
+	a = [1,2]
+	b = [3,4]
+	print(a + b)
+	> [1, 2, 3]
+
+ - Repeating a list a number of times with *
+
+	print([0] * 3)
+	> [0, 0, 0]
+
+	print(3 * ["hey", "ho"])
+	["hey", "ho", "hey", "ho", "hey", "ho"] 
+
+ - Length of a list with len(s)
+
+	len([5, 2, 6])
+	> 3
+	len([])
+	> 0
+	len([[1, 2], [3, 4]])
+	> 2
+
+ 

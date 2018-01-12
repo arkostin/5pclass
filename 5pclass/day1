@@ -1,0 +1,72 @@
+Programs as recipes (Ingredients and cooking instructions)
+Intended Behavior > Execution > Actual Behavior > Evaluation/Feedback > Loop 
+Programming is a way of thinking - not a rote skill.
+Offload complex/boring tasks to the machine.
+Programming system has two parts: THe programming "environment" is the part that's installed on the computer, and the programming "language" that is the part that's installed in the programmer's head.
+~Write in a way that allows you to communicated your ideas~
+
+"I saw a man on a hill with a telescope." - LOTS of different ways to interpret it
+^^Example of Natural Language (Ambiguous)^^
+
+1+1*(9/3-2) - ONE way to interpret it
+^^Example of Formal Language (Definite, exact)^^
+
+Tokens - A set of basic building blocks/what is allowed in the language (Ex. x, 2, +, etc...)
+
+Structure - How Tokens can be combined (Ex. x+(1-1), 1=2, 4x)
+ - Not valid structures; x+++x, 1=(2(, 
+
+Parsing - "Reading" a sentence and recognizing its structure
+
+Syntax: Literal form of a sentence (Tokens + Structure)
+
+Semantics: Meaning of a sentence
+
+
+Textual vs Graphical Languages:
+ - Graphical Languages avoid syntax errors.
+ - Examples of Graphical Languages: (Scratch, Data-Flow Diagrams)
+ - Syntax Errors are when the Programming System does not "understand" the program text.
+
+Semantics - Meaning/Behavior of the Program
+ - Semantic Error are when the actual behavior differs from the intended behavior.
+
+Translating programs to machine code:
+ - Interpreting - Doing so one sentence/statement at a time
+   * Advantages - Interactive, flexible, platform-independent
+ - Compiling - Translating whole program into machine code
+   * Advantages - Efficient, Fast 
+ - Virtual Machines - Compile Program Code to Bytecode, then from Bytecode to Machine Code (Ex. "Just-In-Time Compilation")
+   * Advantages - Some flexibility, Platform-Independent, Fast
+
+
+PYTHON!!
+
+* "Scripting" Language
+* Does not require data type annotations
+* Hides compilation from programmer
+* Enables quick experiments with interactive prompt
+* Multi-paradigm
+* Open source and cross platform
+* Popular for programming video games (EVE, Civ IV, Battlefield 2142)
+* Popular for programming complex websites
+* Popular for system administration
+* Popular for scientific computing
+* Popular for machine learning
+
+Using Python as a Prompt/REPL:
+ - REPL = Read > Evaluate > Print > Loop
+ - Enter queries interactively 
+ - Immediate output/response
+
+Using Python to run whole Programs:
+ - $ python myprogram.py
+ - Program saved in .py file
+ - Output with "print" statements
+
+PyCharm Edu
+ - Python 
+ - Free for UCSC students
+ - We use Python 3 >:(
+ - Includes Interactive Prompt and Interpreter
+ - Programming Environment

@@ -1,0 +1,37 @@
+(Functions)
+
+Three different mental methods:
+* Mathematical set theory
+ - A function is a relation such that an element in the domain A only has only pair to an element in B
+* Replace function call with function definition
+ - Take the definition of a function and insert it into the location of the function name within the code.
+* Computer execution
+
+Return Statement
+* Syntax:
+
+	return
+	return expr
+
+ - Can only be used in fucntion bodies
+
+Function Call:
+* Syntax
+
+	fname(args,..)
+
+ - fname is an expression evaluating to a function
+
+
+(Function Composition)
+
+Simple example:
+
+	def f(x):
+		return x + 4
+	def g(x):
+		return 5 * x + 2
+	def h(x):
+		return f(g(x))
+
+

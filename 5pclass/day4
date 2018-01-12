@@ -1,0 +1,85 @@
+[Booleans]
+
+Made by George Boole
+
+Operators:
+
+* AND
+ - if x is and expression and y is an expression.
+ - (x and y) is only true if both x and y are true.
+ - x and True = x
+ - x and x = x
+ - x and y = y and x
+ - x and False = False
+ - x and y and z and False = False
+
+* OR
+ - if x is an expression and y is an expression.
+ - (x or y) is only true if either or both of x and y is true.
+ - x or False = x
+ - x or x = x
+ - x or y = y or x
+ - x or True = x
+
+* NOT
+ - if x is an expression and y is an expression.
+ - (not x) is true if x is false, and false if x is true.
+ - not False = True
+ - not not True = True
+ - not not x = x
+ - not (x or y) = not x and not y
+ - not (x and y)
+ - not x or not y
+
+Comparison Operators:
+
+* <
+ - less than
+
+* ==
+ - is equal to?
+
+* >=
+ - is greater or equal to?
+
+* !=
+ - does not equal?
+
+
+[if... then... else...]
+
+* if:
+--------------------------------------------------------------------
+if 1 < 2:
+	print("hello")
+print("world")
+--------------------------------------------------------------------
+if False:
+	print("This will never be executed")
+print("hahah")
+--------------------------------------------------------------------
+* else:
+if int(input()) > 10:
+	print("greater than ten")
+else:
+	print("not greaer than then")
+--------------------------------------------------------------------
+* elif:
+if x > 10:
+	print("greater than 10")
+elif x < 0:
+	print("smaller than 0")
+else:
+	print("between 0 and 10")
+--------------------------------------------------------------------
+x = int(input())
+if x > 10:
+	print("greater than 10")
+	if x > 20:
+		print("greater than 20!")
+	else:
+		print("between 10 and 20")
+else:
+	print("below 10)
+--------------------------------------------------------------------
+
